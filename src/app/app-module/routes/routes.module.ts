@@ -4,25 +4,25 @@ import { RouterModule } from '@angular/router';
 import { CommonModule } from '@angular/common';
 
 // Page module imports
-import { UnknownComponent } from './unknown/unknown.component';
+import { NotFoundComponent } from './not-found/not-found.component';
 import { LandingComponent } from './landing/landing.component';
 
 @NgModule({
 	imports: [
 		CommonModule,
-		RouterModule
+		RouterModule,
 	],
 	declarations: [
 		LandingComponent,
-		UnknownComponent
+		NotFoundComponent
 	],
 	exports: [
 		LandingComponent,
-		UnknownComponent
+		NotFoundComponent
 	]
 })
 export class RoutesModule { }
 
 // Export components that belong to this module
-export { UnknownComponent } from './unknown/unknown.component';
+export { NotFoundComponent } from './not-found/not-found.component';
 export { LandingComponent } from './landing/landing.component';

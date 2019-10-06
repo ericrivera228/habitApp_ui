@@ -6,5 +6,4 @@ import { Component } from '@angular/core';
   styleUrls: ['./habit-app.component.scss']
 })
 export class HabitAppComponent {
-  title = 'Habit App';
 }

@@ -4,11 +4,11 @@ import { Routes, RouterModule } from '@angular/router';
 
 // Page imports
 import { LandingComponent } from '@routes';
-import { UnknownComponent } from '@routes';
+import { NotFoundComponent } from '@routes';
 
 const routes: Routes = [
 	{ path: '', component: LandingComponent },
-	{ path: '**', component: UnknownComponent }
+	{ path: '**', component: NotFoundComponent }
 ];
 
 @NgModule({

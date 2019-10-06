@@ -1,23 +1,24 @@
+// Angular imports
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgModule } from '@angular/core';
 
 import { HabitAppRoutingModule } from './habit-app-routing.module';
 import { HabitAppComponent } from './habit-app/habit-app.component';
+import { RoutesModule } from '@routes';
 
-import { MaterialDesignModule } from '../shared-module/shared.module';
 
 @NgModule({
   declarations: [
-    HabitAppComponent
+    HabitAppComponent,
   ],
   imports: [
     BrowserModule,
-    HabitAppRoutingModule,
     BrowserAnimationsModule,
-    MaterialDesignModule
+    RoutesModule,
+    HabitAppRoutingModule
   ],
   providers: [],
-  bootstrap: [HabitAppComponent]
+  bootstrap: [ HabitAppComponent ]
 })
 export class AppModule { }

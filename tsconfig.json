@@ -17,7 +17,7 @@
     "baseUrl": "./",
     "paths": {
       "@shared": ["./src/app/shared-module/shared.module"],
-      "@routes": ["./src/app/app-module/routes/routes.module"],
+      "@routes": ["./src/app/app-module/routes/routes.module"]
     },
     "lib": [
       "es2018",
