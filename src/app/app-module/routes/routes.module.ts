@@ -3,7 +3,10 @@ import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { CommonModule } from '@angular/common';
 
-// Page module imports
+// UI module imports
+import { UiModule } from '@ui';
+
+// Route module imports
 import { NotFoundComponent } from './not-found/not-found.component';
 import { LandingComponent } from './landing/landing.component';
 
@@ -11,6 +14,7 @@ import { LandingComponent } from './landing/landing.component';
 	imports: [
 		CommonModule,
 		RouterModule,
+		UiModule
 	],
 	declarations: [
 		LandingComponent,

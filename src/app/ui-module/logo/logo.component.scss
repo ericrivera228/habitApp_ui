@@ -1,0 +1,33 @@
+.animation_part{
+  animation-name: test-animation;
+  animation-duration: 4s;
+  animation-iteration-count:infinite;
+
+  &:nth-child(1),
+  &:nth-child(4) {
+    animation-delay: 0.5s;
+  }
+
+  &:nth-child(3),
+  &:nth-child(7),
+  &:nth-child(9) {
+    animation-delay: 1s;
+  }
+
+}
+
+@keyframes test-animation {
+  0% {
+  	fill: #06ffb5;
+  	/*fill:  blue;*/
+  }
+  50% {
+  	fill: #1bffff;
+  	/*fill: green;*/
+  }
+  100% {
+  	fill: #06ffb5;
+  	/*fill: blue;*/
+  }
+
+}
