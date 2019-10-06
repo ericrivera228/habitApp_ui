@@ -23,7 +23,8 @@
     "fullTemplateTypeCheck": true,
     "strictInjectionParameters": true
   },
-    "paths": {
-      "@shared": ["./app/shared-module/shared.module"],
-    }
+  "paths": {
+    "@shared": ["./src/app/shared-module/shared.module"],
+    "@routes": ["./src/app/app-module/routes/routes.module"],
+  }
 }
