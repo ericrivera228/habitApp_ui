@@ -5,20 +5,20 @@ import { NgModule } from '@angular/core';
 import { MaterialDesignModule } from '@shared';
 
 // UI module imports
-import { LogoComponent } from './logo/logo.component';
+import { LoaderComponent } from './loader/loader.component';
 
 @NgModule({
 	imports: [
 
 	],
 	declarations: [
-		LogoComponent
+		LoaderComponent
 	],
 	exports: [
-		LogoComponent
+		LoaderComponent
 	]
 })
 export class UiModule { }
 
 // Export components that belong to this module
-export { LogoComponent } from './logo/logo.component';
+export { LoaderComponent } from './loader/loader.component';
