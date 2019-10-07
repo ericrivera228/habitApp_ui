@@ -1,19 +1,64 @@
+$delay: 0.15;
+
 .animation_part{
+  fill: #06ffb5;
   animation-name: test-animation;
-  animation-duration: 4s;
+  animation-duration: 3s;
   animation-iteration-count:infinite;
+}
 
-  &:nth-child(1),
-  &:nth-child(4) {
-    animation-delay: 0.5s;
-  }
+#parts_8_2,
+#parts_7_1,
+#parts_6_1 {
+  animation-delay: $delay + unquote("s");
+}
 
-  &:nth-child(3),
-  &:nth-child(7),
-  &:nth-child(9) {
-    animation-delay: 1s;
-  }
+#parts_7_2,
+#parts_6_2,
+#parts_5_1 {
+  animation-delay: ($delay * 2) + unquote("s");
+}
 
+#parts_6_3,
+#parts_5_2,
+#parts_4_1 {
+  animation-delay: ($delay * 3) + unquote("s");
+}
+
+#parts_6_4,
+#parts_5_3,
+#parts_4_2,
+#parts_3_1 {
+  animation-delay: ($delay * 4) + unquote("s");
+}
+
+#parts_5_4,
+#parts_4_3,
+#parts_3_2,
+#parts_2_1 {
+  animation-delay: ($delay * 5) + unquote("s");
+}
+
+#parts_4_4,
+#parts_3_3,
+#parts_2_2,
+#parts_1_1 {
+  animation-delay: ($delay * 6) + unquote("s");
+}
+
+#parts_3_4,
+#parts_2_3,
+#parts_1_2 {
+  animation-delay: ($delay * 7) + unquote("s");
+}
+
+#parts_2_4,
+#parts_1_3 {
+  animation-delay: ($delay * 8) + unquote("s");
+}
+
+#parts_1_4 {
+  animation-delay: ($delay * 9) + unquote("s");;
 }
 
 @keyframes test-animation {
