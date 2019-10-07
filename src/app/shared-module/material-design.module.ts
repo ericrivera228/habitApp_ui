@@ -1,5 +1,5 @@
 /**
- * Abstracted all the material imports into another module file so it is easy to use this imports around the app, 
+ * Abstracted all the material imports into another module file so it is easy to use this imports around the app,
  * and because they tend to be so numerous.
  */
 

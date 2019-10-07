@@ -10,13 +10,13 @@ import { RoutesModule } from '@routes';
 
 @NgModule({
   declarations: [
-    HabitAppComponent,
+	HabitAppComponent,
   ],
   imports: [
-    BrowserModule,
-    BrowserAnimationsModule,
-    RoutesModule,
-    HabitAppRoutingModule
+	BrowserModule,
+	BrowserAnimationsModule,
+	RoutesModule,
+	HabitAppRoutingModule
   ],
   providers: [],
   bootstrap: [ HabitAppComponent ]
